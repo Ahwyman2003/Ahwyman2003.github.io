@@ -6,13 +6,21 @@ body {
 .assignment {
     display:flex;
     padding: 10px;
-    margin: 10px;
-    background:burlywood
+    margin: 7px;
+    background: #EEE8AA;
+    border-radius:10px;
 }
 
 .assignment img {
     width: 200px;
-    padding:10px;
+    padding: 10px;
+    border:1px dashed rgb(141, 90, 23);
+    margin: 7px;
+    
+}
+
+.assignment img:hover {
+    border: 2px dashed black
 }
 
 h1 {
@@ -20,7 +28,19 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    color:black;
+h1:hover {
+    color: white;
+}
+
+a {
+    color:rgb(141, 90, 23);
     text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:black
 }

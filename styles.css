@@ -1,26 +1,31 @@
 body {
-    background:lightblue;
+    background:#989898;
     font-family:sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width: 22%;
     padding: 10px;
     margin: 7px;
-    background: #EEE8AA;
-    border-radius:10px;
+    background: #92a8d1;
+    border: radius 5px;
 }
 
 .assignment img {
     width: 200px;
     padding: 10px;
-    border:1px dashed rgb(141, 90, 23);
-    margin: 7px;
-    
+    border:1px dashed #034f84;
+    display: block; 
+    margin: auto;   
 }
 
 .assignment img:hover {
-    border: 2px dashed black
+    border: 2px dashed #034f84;
 }
 
 h1 {
@@ -29,11 +34,15 @@ h1 {
 }
 
 h1:hover {
-    color: white;
+    color: #034f84;
+}
+
+h2 {
+    text-align: center;
 }
 
 a {
-    color:rgb(141, 90, 23);
+    color:white;
     text-align: left;
 }
 
